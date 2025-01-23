@@ -3,7 +3,7 @@ import React from 'react'
 function User({ user,index,remove }) {
     return (
         <div>
-            <div key={index} className='w-52 h-64 bg-white overflow-hidden flex items-center flex-col py-2 shadow-lg rounded-xl'>
+            <div key={index} className='md:w-52   h-64 bg-white overflow-hidden flex items-center flex-col py-2 shadow-lg rounded-xl'>
                 <div className=' h-16 w-16 rounded-full'>
                     <img className='h-full w-full object-contain' src={user.image} alt="" />
                 </div>

@@ -11,7 +11,7 @@ function App() {
     setusers(users.filter((item,i)=>i !== cardindex))
   }
   return (
-    <div className='w-full h-screen px-20 bg-zinc-300'>
+    <div className='w-full min-h-screen px-20 bg-zinc-300'>
       <div className='pt-20 '><Users users={users} remove={removehandler} /></div>
       <Form userhandler={userhandler} />
     </div>
