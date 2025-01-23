@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+*{
+  font-family: gilroy;
+}
+p{
+  font-size: 12px;
+  font-weight: 600;
+  margin: 5px 0px;
+}
